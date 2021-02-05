@@ -1,5 +1,6 @@
 import areaCalc 
 import perimCalc 
+import volume
 import numpy as np
 # Square demo
 a=5
@@ -22,3 +23,11 @@ perimeter=perimCalc.rectangle(a,b)
 print('For a rectangle of lengths %d and %d, the area is %d and the perimeter %d'
 %(a,b,area,perimeter))
 
+# Volume demo
+a=5
+b=8
+c=3
+r=2
+cube=volume.cube(a)
+sphere=volume.sphere(r)
+print('Volume of a cube: %d and a sphere: %d' %(cube,sphere))
